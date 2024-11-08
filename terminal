@@ -1,0 +1,19 @@
+npm install react-error-boundary
+npm run dev
+mkdir -p public/fonts
+curl -o public/fonts/Inter-Bold.woff https://rsms.me/inter/font-files/Inter-Bold.woff
+
+# Remove node_modules and package-lock.json
+rm -rf node_modules package-lock.json
+
+# Clear npm cache
+npm cache clean --force
+
+# Reinstall dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Rename the file
+mv src/components/Projects/StarryBackground.js src/components/Projects/StarryBackground.jsx

@@ -1,0 +1,19 @@
+portfolio/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── models/
+│       ├── images/
+│       └── sounds/
+├── src/
+│   ├── components/
+│   │   ├── Navigation/
+│   │   ├── Home/
+│   │   ├── About/
+│   │   ├── Projects/
+│   │   └── Contact/
+│   ├── styles/
+│   ├── utils/
+│   ├── hooks/
+│   └── context/
+└── package.json 
